@@ -1,0 +1,88 @@
+
+.mp--canvas__richtext{
+    z-index: 99;
+    position: absolute;
+    color: #1f2229;
+    box-sizing: border-box;
+    line-height: 38px;
+    height: 40px;
+    line-height: 24px;
+    padding: 6px 10px 0;
+    min-height: 40px;
+    overflow: visible;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    min-width: 90px;
+    user-select: none;
+    white-space: nowrap;
+    box-shadow: 3px 3px 5px #0000004d;
+    background-color: #fff;
+    border: solid 3px transparent;
+}
+.mp--canvas__richtext__editor{
+        outline: none;     
+}
+.mp--canvas__richtext__hub{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(60px, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 2px solid rgb(242, 115, 230);
+    content: "";
+    z-index: 0;
+    background-color: #ffffff;
+    line-height: 10px;
+    overflow: hidden;
+}
+.mp--canvas__richtext-focus{
+    background-color:#fff
+}
+.mp--canvas__richtext-edit{
+    background-color: #fff;
+    width: auto!important;
+    max-width: 250px;
+    height: auto!important;
+    word-wrap: break-word;
+    white-space: normal;
+    border: solid 3px #cd0404;
+    padding: 6px 10px 0;
+
+}
+.mp--canvas__richtext-edit{
+    background-color: #ffffff;
+    width: auto !important;
+    max-width: 250px;
+    height: auto !important;
+    word-wrap: break-word;
+    white-space: normal;
+    border: solid 3px #cd0404;
+}
+.mp--canvas__richtext__plus-right{
+    width: 20px;
+    height: 20px;
+    border: solid 1px #cd0404;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    right: -27px;
+    background-color: #fff;
+}
+.mp--canvas__richtext__plus-bottom{
+	width: 20px;
+	height: 20px;
+	border: solid 1px #cd0404;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 50%;
+    position: absolute;
+    bottom: -29px;
+    left: 50%;
+    margin-left: -10px;
+    background-color: #fff;
+}

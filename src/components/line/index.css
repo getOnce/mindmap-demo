@@ -1,0 +1,24 @@
+.m--line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1000000px;
+  height: 1000000px;
+  z-index: 0;
+  transform: translate(-500000px, -500000px);
+  background-color: #eafdfc;
+}
+.m--line > path {
+  animation: pathFadeIn 0.5s ease-in;
+}
+@keyframes pathFadeIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

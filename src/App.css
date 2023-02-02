@@ -1,0 +1,14 @@
+.mp--container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color:antiquewhite;
+  position: relative;
+}
+.mp--shadow{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  visibility: hidden;
+}
