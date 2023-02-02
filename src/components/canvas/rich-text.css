@@ -39,7 +39,8 @@
     overflow: hidden;
 }
 .mp--canvas__richtext-focus{
-    background-color:#fff
+    background-color:#fff;
+    border: solid 3px #cd0404;
 }
 .mp--canvas__richtext-edit{
     background-color: #fff;
